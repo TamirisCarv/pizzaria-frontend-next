@@ -1,0 +1,152 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/cadastro/index.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    font-weight: 700;
+    background-image: url('https://s2-oglobo.glbimg.com/qeY272LDeEyeSg8NTIcU4cEtBV0=/0x452:3584x4447/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/Z/H/zmMWBBTuucjAYMr4vS7w/close-up-em-uma-deliciosa-pizza.jpg');
+    background-size: auto 860px;
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(244, 46, 9, 0.);
+    z-index: 1;
+}
+.login-background {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.login-container {
+    background-color: #000;
+    padding: 2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+    position: absolute; 
+    right: 0; /* Alinha o contêiner ao lado direito da tela */
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: -100px;
+}
+.login-content h2{
+    margin-left:150px;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 40px;
+    color:#f42e09
+   
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    width: 160%;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    background-color: #1b1b1b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+button {
+    width: 160%;
+    padding: 1rem;
+    background-color: #f42e09;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #714f2a;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.login-container a {
+    color: #f42e09;
+    text-decoration: none;
+    display: block;
+    margin: 1rem 0;
+    text-align: center;
+    margin-left: 140px;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+.right-panel {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    position: center;
+    z-index: 3;
+
+    background-size: 100%;
+    margin-left:-650px;
+    left: 0;
+}
+
+.right-panel h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.right-panel p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.right-panel a {
+    color: #bb9469;
+    text-decoration: none;
+    margin-left: 200px;
+}
+a .link{
+    margin-left: 200px;
+}
